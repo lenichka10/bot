@@ -1,0 +1,9 @@
+{
+  "name": "station-energie-tests",
+  "private": true,
+  "description": "Local end-to-end tests: local Postgres + fake Supabase REST + Playwright",
+  "dependencies": {
+    "@supabase/supabase-js": "2.118.0",
+    "pg": "8.13.1"
+  }
+}

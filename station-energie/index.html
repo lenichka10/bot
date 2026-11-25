@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Station Energie</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap" id="app" aria-live="polite">
+    <header class="top">
+      <div>
+        <div class="eyebrow">Station 1 · Energie</div>
+        <h1>Die Halle schläft, der Zähler läuft</h1>
+      </div>
+      <span class="chip">Wird geladen …</span>
+    </header>
+  </main>
+  <div class="net" id="net" role="status" hidden>Offline – wird gespeichert, sobald wieder online</div>
+
+  <script src="config.js"></script>
+  <script src="vendor/supabase-2.118.0.js"></script>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
